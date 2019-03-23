@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="/style.scss">
+    <link rel="stylesheet" href="/node_modules/owl.carousel/dist/assets/owl.carousel.min.css" />
+</head>
+
+<body>
+
+    <div class="portfolioall">
+
+        <div class="projectsmenu">
+            <nav class="wrapnavsprojects">
+                <ul class="nav-links">
+                    <li>
+                        <a class="marginfixxerprojects" href="index.html">Projects</a>
+                    </li>
+                    <li>
+                        <a class="marginfixxerprojects" href="recommendations.html">Recommendations</a>
+                    </li>
+                    <li>
+                        <a class="marginfixxerprojects" href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a class="marginfixxerprojects" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                <div class="burger">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+
+                </div>
+
+            </nav>
+
+            <div class="topwrapperback">
+                <a class="landingpage" href="index.html">
+                    <h2 class="h2topback"> Back to projects</h2>
+                </a>
+            </div>
+        </div>
+
+        <div class="headlinewrapper">
+            <h1 class="h1toptlfp">The Low Frequency Pond</h1>
+            <h2 class="subject">Experimental bass instrument showing audiovisual phenomena </h2>
+        </div>
+
+        <svg class="linebox" width="1240px" height="87px" viewBox="0 0 1240 87" version="1.1" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink">
+            <defs>
+                <path d="M78,42.4305556 L39,65 L0,42.4305556 L0,0 L78,0 L78,42.4305556 Z" id="path-1"></path>
+            </defs>
+            <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <g id="Project-1" transform="translate(-100.000000, -309.000000)">
+                    <path d="M100,352 L1249,352.5" id="Line" stroke="#112B43" stroke-linecap="square"></path>
+                    <g id="Group-Copy-8" transform="translate(1261.000000, 309.000000)">
+                        <g id="Rectangle" transform="translate(0.500000, 22.000000)">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <use id="Mask" fill="#112B43" xlink:href="#path-1"></use>
+                            <rect stroke="#D0021B" stroke-width="0.34" fill="#D0021B" mask="url(#mask-2)" x="39.167382"
+                                y="-7.10542736e-15" width="50.8841202" height="69.3333333"></rect>
+                        </g>
+                        <path d="M78.5,22 L39.5,44 L0.5,22 L39.5,0 L78.5,22 Z" id="Combined-Shape-Copy" fill="#F5A623"></path>
+                    </g>
+                </g>
+            </g>
+        </svg>
+
+        <div class="videowrapper">
+            <div class="iframe-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/bTXydBm3PZo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+
+            <p class="projecttext">
+                <b>What is it?</b><br>
+                The Low Frequency Pond is an interactive bass instrument that allows its user to generate visual
+                phenomena based on sound.
+                This type of sound invoked visuals is better known as cymatics. By playing on the bass strings attached
+                to the instrument
+                the user will experience cymatic reactions in the water pond that is placed in the center of the
+                instrument. This instrument is meant for
+                educating people about the closely connected multimodalities between our visual and auditory senses. To
+                build this instrument I used
+                an arduino to recieve data from 4 pick-up microphones attached closely to 4 bass strings. When the
+                instrument is played the arduino
+                picks up the signal from the microphones, which triggers a bass sound to be played into the water pond.
+                <br><br>
+                <b>What I did?</b><br>
+                I researched cymatic phenomena and did experiments to see if it was possible to recreate cymatic
+                interactions.
+                I designed the wooden box with a 3D laser cutter and attached all parts to the box. I coded the arduino
+                sensors using max/msp.
+            </p>
+            <div class="owl-carousel owl-theme">
+                <div> <img class="image1" src="images/tlfp/tlfp1.png"> </div>
+                <div> <img class="image1" src="images/tlfp/tlfp2.png"> </div>
+                <div> <img class="image1" src="images/tlfp/tlfp3.png"> </div>
+                <div> <img class="image1" src="images/tlfp/tlfp4.png"> </div>
+                <div> <img class="image1" src="images/tlfp/tlfp5.png"> </div>
+                <div> <img class="image1" src="images/tlfp/tlfp6.png"> </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+    <script src="/tlfp.js"></script>
+    <script src="/node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
+    <script src="app.js"></script>
+
+</body>
