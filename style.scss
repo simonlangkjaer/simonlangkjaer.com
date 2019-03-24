@@ -1043,7 +1043,7 @@ a.golink:hover{
     align-items: flex-start;
     min-height: 8vh;
     font-family: "Proxima Nova"; 
-    margin-top: 5px;
+    // margin-top: 5px;
 }
 
 
@@ -1056,7 +1056,7 @@ a.golink:hover{
 @media screen and (min-width: 1024px) {
     .wrapnavs, {
        justify-content: flex-end;
-       margin-top: 20px;
+       margin-top: 5px;
     }    
 }
 
