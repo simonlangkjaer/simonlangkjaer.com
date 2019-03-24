@@ -58,21 +58,21 @@ html {
 }
 
 @media screen and (min-width: 480px) {
-    .portfolioall, {
+    .portfolioall {
         margin-right: 25px;
         margin-left: 25px;
     }    
 }
 
 @media screen and (min-width: 768px) {
-    .portfolioall, {
+    .portfolioall {
         margin-right: 50px;
         margin-left: 50px;
     }    
 }
 
 @media screen and (min-width: 1024px) {
-    .portfolioall, {
+    .portfolioall {
         margin-right: 100px;
         margin-left: 100px;
     }    
@@ -84,21 +84,21 @@ html {
 }
 
 @media screen and (min-width: 480px) {
-    .portfolioallindex, {
+    .portfolioallindex {
         margin-right: 25px;
         margin-left: 25px;
     }    
 }
 
 @media screen and (min-width: 768px) {
-    .portfolioallindex, {
+    .portfolioallindex {
         margin-right: 50px;
         margin-left: 50px;
     }    
 }
 
 @media screen and (min-width: 1024px) {
-    .portfolioallindex, {
+    .portfolioallindex {
         margin-right: 100px;
         margin-left: 100px;
     }    
@@ -112,14 +112,14 @@ html {
 }
 
 @media screen and (min-width: 768px) {
-    .menuandtopwrapper, {
+    .menuandtopwrapper {
         margin-bottom: 120px;
         margin-top: 10px;
     }    
 }
 
 @media screen and (min-width: 1268px) {
-    .menuandtopwrapper, {
+    .menuandtopwrapper {
     flex-direction: row-reverse;
     }    
 }
@@ -134,7 +134,7 @@ html {
 }
 
 @media screen and (min-width: 550px) {
-    .menu, {
+    .menu {
         justify-content: flex-end;
         font-size: 16px;
     }    
@@ -142,7 +142,7 @@ html {
 
 
 @media screen and (max-width: 768px) {
-    .menu, {
+    .menu {
         margin-right: 0px;
         margin-left: 0px;
     }    
@@ -176,7 +176,7 @@ html {
 }
 
 @media screen and (max-width: 550px) {
-    .projects, .recommendations, .about,{
+    .projects, .recommendations, .about{
         margin-right: 35px;        
     }    
 }
@@ -210,14 +210,14 @@ html {
 }
 
 @media screen and (min-width: 480px) {
-    .h1top, .h1toptlfp, {
+    .h1top, .h1toptlfp {
         // font-size: 40px;
         justify-content: left;
         text-align: left;
     }    
 }
 @media screen and (min-width: 480px) {
-    .h2top, {
+    .h2top {
         font-size: 35px;
         justify-content: left;
         text-align: left;
@@ -225,13 +225,13 @@ html {
 }
 
 @media screen and (min-width: 768px) {
-    .h1top, .h2top, .h1toptlfp, {
+    .h1top, .h2top, .h1toptlfp {
         font-size: 60px;
     }    
 }
 
 @media screen and (min-width: 1024px) {
-    .h1top, .h2top, .h1toptlfp, {
+    .h1top, .h2top, .h1toptlfp {
         font-size: 40px;
     }    
 }
@@ -247,14 +247,14 @@ html {
 }
 
 @media screen and (min-width: 480px) {
-    .h2topabout, {
+    .h2topabout {
         font-size: 35px;
         justify-content: left;
     }    
 }
 
 @media screen and (min-width: 768px) {
-    .h2topabout, {
+    .h2topabout {
         font-size: 45px;
         margin-bottom: 70px;
     }    
@@ -272,13 +272,13 @@ html {
 }
 
 @media screen and (min-width: 768px) {
-    .projectsheadline, {
+    .projectsheadline {
         font-size: 35px;
     }    
 }
 
 @media screen and (min-width: 1024px) {
-    .projectsheadline, {
+    .projectsheadline {
         font-size: 20px;
     }    
 }
@@ -298,7 +298,7 @@ html {
 }
 
 @media screen and (min-width: 702px) {
-    .projectswrapperrow1, {
+    .projectswrapperrow1 {
         justify-content: space-between;
     }    
 }
@@ -379,7 +379,7 @@ a.contactlink:visited {
 }
 
 @media screen and (min-width: 768px) {
-    .tshape, {
+    .tshape {
         margin-bottom: 160px;
     }    
 }
@@ -391,14 +391,14 @@ a.contactlink:visited {
 }
 
 @media screen and (min-width: 768px) {
-    .aboutwrapper, {
+    .aboutwrapper {
         margin-right: 40px;
         margin-left: 40px;
     }    
 }
 
 @media screen and (min-width: 1024px) {
-    .aboutwrapper, {
+    .aboutwrapper {
         margin-right: 100px;
         margin-left: 100px;
     }    
@@ -412,7 +412,7 @@ a.contactlink:visited {
 }
 
 @media screen and (min-width: 768px) {
-    .abouttext,  {
+    .abouttext  {
         font-size: 20px;
     }    
 }
@@ -471,14 +471,14 @@ a{
 }
 
 @media screen and (min-width: 480px) {
-    .owl-stage-outer, {
+    .owl-stage-outer {
         margin-right: 25px;
         margin-left: 25px;
     }    
 }
 
 @media screen and (min-width: 768px) {
-    .owl-stage-outer, {
+    .owl-stage-outer {
         margin-right: 50px;
         margin-left: 50px;
     }    
@@ -497,21 +497,21 @@ a{
 }
 
 @media screen and (min-width: 480px) {
-    .owl-item.active, {
+    .owl-item.active {
         margin-right: 10px;
         margin-left: 10px;
     }    
 }
 
 @media screen and (min-width: 768px) {
-    .owl-item.active, {
+    .owl-item.active {
         margin-right: 20px;
         margin-left: 20px;
     }    
 }
 
 @media screen and (min-width: 1024px) {
-    .owl-item.active, {
+    .owl-item.active {
         margin-right: 30px;
         margin-left: 30px;
     }    
@@ -549,7 +549,7 @@ a{
 
 
 @media screen and (min-width: 1024px) {
-    .recommendationswrapper, {
+    .recommendationswrapper {
         margin-right: 160px;
         margin-left: 160px;
     }    
@@ -570,19 +570,19 @@ a{
 }
 
 @media screen and (min-width: 480px) {
-    .astalogo, .astasign, {
+    .astalogo, .astasign {
         width: 40%;
     }    
 }
 
 @media screen and (min-width: 768px) {
-    .astalogo, .astasign, {
+    .astalogo, .astasign {
         width: 30%;
     }    
 }
 
 @media screen and (min-width: 1024px) {
-    .astalogo, .astasign, {
+    .astalogo, .astasign {
         width: 20%;
     }    
 }
@@ -598,14 +598,14 @@ a{
 }
 
 @media screen and (min-width: 768px) {
-    .recommendationheader,  {
+    .recommendationheader  {
         margin-left: 20px;
         margin-right: 20px;
     }    
 }
 
 @media screen and (min-width: 1024px) {
-    .recommendationheader, {
+    .recommendationheader {
         margin-right: 50px;
         margin-left: 50px;   
     }    
@@ -623,7 +623,7 @@ a{
 }
 
 @media screen and (min-width: 768px) {
-    .recommendationtext,  {
+    .recommendationtext  {
         margin-left: 20px;
         margin-right: 20px;
         font-size: 20px;
@@ -631,7 +631,7 @@ a{
 }
 
 @media screen and (min-width: 1024px) {
-    .recommendationtext, {
+    .recommendationtext {
         margin-right: 50px;
         margin-left: 50px;   
     }    
@@ -653,7 +653,7 @@ a{
 }
 
 @media screen and (min-width: 480px) {
-    .mthlogo,.mthsign {
+    .mthlogo, .mthsign {
         width: 70%;
     }    
 }
@@ -683,19 +683,19 @@ a{
 }
 
 @media screen and (min-width: 480px) {
-    .vilogo,  {
+    .vilogo  {
         width: 70%;
     }    
 }
 
 @media screen and (min-width: 768px) {
-    .vilogo, {
+    .vilogo {
         width: 55%;
     }    
 }
 
 @media screen and (min-width: 1024px) {
-    .vilogo, {
+    .vilogo {
         width: 40%;
     }    
 }
@@ -708,19 +708,19 @@ a{
 }
 
 @media screen and (min-width: 480px) {
-    .visign,  {
+    .visign  {
         width: 40%;
     }    
 }
 
 @media screen and (min-width: 768px) {
-    .visign, {
+    .visign {
         width: 40%;
     }    
 }
 
 @media screen and (min-width: 1024px) {
-    .visign, {
+    .visign {
         width: 30%;
     }    
 }
@@ -738,7 +738,7 @@ a{
 }
 
 .contactheadwrapper{
-    display:flex;
+    display: flex;
     justify-content: space-between;
     margin-bottom: 50px;
 }
@@ -768,14 +768,14 @@ a{
 }
 
 @media screen and (min-width: 480px) {
-    .linkedintext,  {
+    .linkedintext {
         margin-top: 22px;
         font-size: 16px;
     }    
 }
 
 @media screen and (min-width: 768px) {
-    .linkedintext, {
+    .linkedintext {
         margin-top: 18px;
         margin-left: 30px;
         font-size: 30px;
@@ -783,7 +783,7 @@ a{
 }
 
 @media screen and (min-width: 1024px) {
-    .linkedintext, {
+    .linkedintext {
         margin-top: 16px;
     }    
 }
@@ -795,14 +795,14 @@ a{
 }
 
 @media screen and (min-width: 480px) {
-    .emailtext,  {
+    .emailtext {
         margin-top: 12px;
         font-size: 16px;
     }    
 }
 
 @media screen and (min-width: 768px) {
-    .emailtext, {
+    .emailtext {
         margin-top: 8px;
         margin-left: 30px;
         font-size: 30px;
@@ -810,7 +810,7 @@ a{
 }
 
 @media screen and (min-width: 1024px) {
-    .emailtext, {
+    .emailtext {
         margin-top: 6px;
     }    
 }
@@ -825,7 +825,7 @@ a{
 }
 
 @media screen and (min-width: 1024px) {
-    .projectsmenu, {
+    .projectsmenu {
         margin-top: 40px;
         flex-direction: row-reverse;
     }    
@@ -840,7 +840,7 @@ a{
 }
 
 @media screen and (min-width: 480px) {
-    .subject,  {
+    .subject {
         font-size: 30px;
         text-align: left;
         width: 90%;
@@ -848,7 +848,7 @@ a{
 }
 
 @media screen and (min-width: 768px) {
-    .subject,  {
+    .subject {
         font-size: 35px;
     }    
 }
@@ -865,7 +865,7 @@ a{
 }
 
 @media screen and (min-width: 480px) {
-    .h2topback, {
+    .h2topback {
         font-size: 16px;
         justify-content: left;
         // margin-bottom: 120px;
@@ -880,19 +880,19 @@ a{
 }
 
 @media screen and (min-width: 480px) {
-    .linebox,  {
+    .linebox {
         font-size: -10px;
     }    
 }
 
 @media screen and (min-width: 768px) {
-    .linebox,  {
+    .linebox {
         margin-top: -10px;
     }    
 }
 
 @media screen and (min-width: 1024px) {
-    .linebox,  {
+    .linebox {
         margin-top: -20px;
     }    
 }
@@ -903,7 +903,7 @@ a{
 }
 
 @media screen and (min-width: 480px) {
-    .topwrapperback, {
+    .topwrapperback {
         justify-content: left;
     }    
 }
@@ -914,21 +914,21 @@ a{
 }
 
 @media screen and (min-width: 480px) {
-    .videowrapper,  {
+    .videowrapper {
         margin-right: 40px;
         margin-left: 40px;
     }    
 }
 
 @media screen and (min-width: 768px) {
-    .videowrapper,  {
+    .videowrapper {
         margin-right: 80px;
         margin-left: 80px;
     }    
 }
 
 @media screen and (min-width: 1024px) {
-    .videowrapper,  {
+    .videowrapper {
         margin-right: 160px;
         margin-left: 160px;
     }    
@@ -958,7 +958,7 @@ a{
 
 
 @media screen and (min-width: 480px) {
-    .golink,  {
+    .golink {
         font-size: 30px;
         margin-top: 26px;
     }    
@@ -1031,7 +1031,7 @@ a.golink:hover{
 }
 
 @media screen and (min-width: 768px) {
-    .wrapnavsprojects, {
+    .wrapnavsprojects {
         align-items: start;
         justify-content: center;
     }    
@@ -1048,20 +1048,20 @@ a.golink:hover{
 
 
 @media screen and (min-width: 768px) {
-    .wrapnavs, {
+    .wrapnavs {
        justify-content: center;
     }    
 }
 
 @media screen and (min-width: 1024px) {
-    .wrapnavs, {
+    .wrapnavs {
        justify-content: flex-end;
        margin-top: 5px;
     }    
 }
 
 @media screen and (min-width: 1160px) {
-    .wrapnavs, {
+    .wrapnavs {
         align-items: start;
     }    
 }
@@ -1071,7 +1071,7 @@ a.golink:hover{
 }
 
 @media screen and (min-width: 1024px) {
-    .marginfixxerlinks, {
+    .marginfixxerlinks {
        margin-left: 30px;
        font-size: 16px;
     }    
@@ -1082,7 +1082,7 @@ a.golink:hover{
 }
 
 @media screen and (min-width: 1024px) {
-    .marginfixxerprojects, {
+    .marginfixxerprojects {
        margin-left: 30px;
        font-size: 16px;
     }    
@@ -1101,20 +1101,20 @@ a.golink:hover{
 }
 
 @media screen and (min-width: 768px) {
-    .nav-links, {
+    .nav-links {
        font-size: 20px;
     }    
 }
 
 @media screen and (min-width: 1024px) {
-    .nav-links, {
+    .nav-links {
        justify-content: flex-end;
     }    
 }
 
 
 @media screen and (min-width: 1160px) {
-    .nav-links, {
+    .nav-links {
         align-items: start;
     }    
 }
